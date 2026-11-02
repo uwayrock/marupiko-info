@@ -2,41 +2,41 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="まるぴこのGoogle・YouTubeデータの取得、利用、保存、共有、認証解除についての説明。">
+  <meta name="description" content="まるぴこが取り扱う情報と、その利用目的、保存、連携解除、削除、お問い合わせについて。">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>プライバシーポリシー｜まるぴこ</title>
   <link rel="icon" href="logo.png" type="image/png"><link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
-  <header class="site-header wrap"><a class="brand" href="index.html">まるぴこ<span>投稿ツールのご案内</span></a><nav aria-label="メインナビゲーション"><a href="index.html">ホーム</a><a href="privacy.html" aria-current="page">プライバシー</a><a href="terms.html">利用規約</a></nav></header>
+  <header class="site-header wrap"><a class="brand" href="index.html">まるぴこ<span>動画投稿と公開予定の管理</span></a><nav aria-label="メインナビゲーション"><a href="index.html">ホーム</a><a href="privacy.html" aria-current="page">プライバシー</a><a href="terms.html">利用規約</a></nav></header>
   <main id="main" class="wrap document">
-    <p class="eyebrow">PRIVACY</p><h1>プライバシーポリシー</h1><p class="small">最終更新：2026年10月31日</p>
-    <p>本方針は、「まると ぴこの あそびじかん」の運営者が使用する個人用動画投稿ツール「まるぴこ」と、その説明サイトに適用します。一般ユーザーのアカウントを預かるサービスではありません。</p>
+    <p class="eyebrow">PRIVACY</p><h1>プライバシーポリシー</h1><p class="small">最終更新：2026年11月2日</p>
+    <p>本方針は、「まると ぴこの あそびじかん」の運営者が使用するアプリ「まるぴこ」と、本ウェブサイトでの情報の取り扱いについて定めます。まるぴこはYouTube API Servicesを利用して、運営者自身のチャンネルへの動画投稿と公開予定の管理を行います。</p>
     <h2>1. Google・YouTubeから取得する情報</h2>
-    <ul><li>Google OAuth 2.0のアクセストークン、更新トークン、有効期限、許可された権限。</li><li>認証した運営者のYouTubeチャンネルID・チャンネル名。</li><li>投稿した動画のID・URL・メタデータ・処理状態・公開状態・公開予約日時・子ども向け設定など、投稿管理に必要な情報。</li></ul>
-    <p>Googleアカウントのパスワードは取得・保存しません。Gmail、Google Drive、連絡先、視聴者のアカウント情報、コメント本文の取得機能はありません。</p>
+    <ul><li>Googleとの連携と、その継続に必要な認証情報。</li><li>連携したYouTubeチャンネルのID・名称。</li><li>投稿した動画のID・URL・タイトル・説明文・タグ・処理状況・公開状況・公開予定日時・子ども向け設定。</li></ul>
+    <p>Googleアカウントのパスワード、視聴者のアカウント情報、GmailやGoogle Driveの内容は取得しません。</p>
     <h2>2. 利用目的と権限</h2>
-    <p>取得情報は、投稿先チャンネルの確認、動画アップロード、タイトル・説明文・タグ等の登録、公開予約、処理状況の確認、重複投稿防止、認証更新、エラー対応に使用します。</p>
-    <p>使用する権限は <code>https://www.googleapis.com/auth/youtube.force-ssl</code> です。Google側では動画・評価・コメント等の管理を許可する権限ですが、現行実装が行うのは上記の投稿管理操作です。Google APIから取得したデータを広告配信、販売、信用評価、汎用AIモデルの学習に使用しません。</p>
+    <p>取得した情報は、投稿先の確認、動画の投稿、公開予約、投稿状況の確認、重複投稿の防止、Googleとの連携の維持、問題が起きた際の対応に使用します。</p>
+    <p>連携には <code>youtube.force-ssl</code> の権限を使用します。この権限はGoogle上で動画・評価・コメントの管理を含みます。まるぴこで利用する機能は、チャンネルと動画の情報取得、動画投稿、タイトルなどの登録、公開予約です。</p>
+    <p>Google APIから取得したデータを販売、広告配信、信用評価、汎用AIモデルの学習に使用しません。</p>
     <h2>3. 保存場所と保護</h2>
-    <p>認証情報、アップロード再開用情報、投稿キュー、投稿履歴、運用ログは、運営者のPCに保存します。トークンは一般の投稿履歴や通常ログから分離します。Windowsネイティブ環境ではユーザー単位のDPAPI保護、WSL/Linuxでは所有者に限定したファイルアクセス権を使用します。後者はディスク暗号化を意味しません。</p>
-    <p>この説明サイトへ認証情報や投稿履歴をアップロードする処理はありません。</p>
+    <p>認証情報、投稿予定、投稿履歴、動作記録は運営者の端末内に保存し、端末の保護機能やアクセス制限を用いて管理します。認証情報は投稿履歴とは分けて保存します。</p>
+    <p>認証情報や投稿履歴が本ウェブサイトに掲載されることはありません。</p>
     <h2>4. 外部への送信</h2>
-    <p>動画ファイルとメタデータ、認証に必要な情報をGoogle・YouTubeへ送信します。運営者がWebhook通知を設定した場合に限り、その指定先へ秘密情報を除いたエラー要約等を送ります。この設定は任意です。</p>
+    <p>動画、タイトルや説明文、認証に必要な情報をGoogle・YouTubeへ送信します。運営者が外部への通知を有効にした場合は、指定された通知先へ、認証情報を含まない動作エラーの概要を送信します。</p>
     <p>Google APIから受領した情報の利用・転送には、Limited Use要件を含む<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>を適用します。Google・YouTube自身によるデータの取り扱いは<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご確認ください。</p>
     <h2>5. 保存期間・アクセス解除・削除</h2>
-    <p>認証情報と投稿履歴は、運営者による利用と投稿管理に必要な間、PCに保持されます。現在の実装には期間による自動削除機能がありません。停止や認証解除だけでローカルの履歴が自動消去されることもありません。</p>
-    <ol><li>今後の送信を止めるには、運営者が投稿ツールの自動実行を停止します。</li><li>APIへのアクセスは、<a href="https://myaccount.google.com/connections">Googleアカウントの接続管理</a>で「まるぴこ」への許可を取り消せます。</li><li>PC上の情報の削除は、ツール停止後に運営者が認証保存領域・関連する投稿履歴やログ・バックアップを確認し、手動で行います。削除方法の問い合わせは下記窓口で受け付けます。</li></ol>
-    <p>認証を解除したりPCの情報を消したりしても、YouTube上の動画や設定済み公開予約は削除・取消されません。必要な変更はYouTube Studioで別途行ってください。投稿履歴を消して運転を再開すると重複防止に影響するため、削除後にそのまま再開しないでください。</p>
+    <p>端末に保存した認証情報や投稿履歴は、運営者が削除するまで保持されます。削除は運営者が手動で行います。アプリの停止やGoogleとの連携解除だけで、端末上の情報が自動的に消去されることはありません。</p>
+    <ul><li>連携の解除：<a href="https://myaccount.google.com/connections">Googleアカウントの接続管理</a>で「まるぴこ」へのアクセス許可を取り消せます。</li><li>保存情報の削除：アプリの実行を停止したうえで、運営者が端末内の認証情報、投稿履歴、動作記録とバックアップを削除します。削除についてのご相談は、下記のお問い合わせ先で受け付けます。</li></ul>
+    <p>YouTube上の動画や公開予約の変更・削除は、YouTube Studioで行ってください。アプリとの連携解除や端末内の情報の削除は、YouTube上の動画や公開予約には反映されません。</p>
     <h2>6. この説明サイトについて</h2>
-    <p>このサイトにはログイン、入力フォーム、アクセス解析スクリプト、広告、独自の追跡Cookieを設置していません。ホスティング先のGitHub Pagesはセキュリティ目的でアクセス元IPアドレス等を記録します。詳細は<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーステートメント</a>をご確認ください。</p>
+    <p>本ウェブサイトでは、アクセス解析ツール、広告、独自の追跡Cookieを使用していません。配信サービスであるGitHub Pagesは、セキュリティ目的でアクセス元IPアドレス等を記録します。詳細は<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーステートメント</a>をご確認ください。</p>
     <h2>7. お子さまの情報</h2>
-    <p>制作動画は3歳前後を想定していますが、本ツールを利用・認証するのは成人のチャンネル運営者です。お子さまにアカウント登録や情報入力を求めず、視聴者のお子さまの個人情報を取得する機能はありません。</p>
+    <p>まるぴこは成人のチャンネル運営者が利用します。視聴者のお子さまにアカウントの連携や情報の入力を求めることはありません。</p>
     <h2>8. 変更とお問い合わせ</h2>
-    <p>データの取り扱いを変更する場合は本ページを更新し、必要な場合は新たな取り扱いを始める前に同意を確認します。</p>
+    <p>情報の取り扱いに変更がある場合は本ページを更新します。</p>
     <p>運営：まると ぴこの あそびじかん 運営者<br>お問い合わせ・削除の相談：<a href="mailto:uway.rock@gmail.com">uway.rock@gmail.com</a></p>
-    <p class="small">メールにパスワード・トークン・認証コードを記載しないでください。</p>
   </main>
   <footer class="wrap site-footer"><p>まるぴこ</p><nav aria-label="フッターナビゲーション"><a href="index.html">ホーム</a><a href="terms.html">利用規約</a></nav></footer>
 </body>
